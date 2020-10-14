@@ -39,7 +39,7 @@ DEM ユーザー アカウントと DEM ユーザー アカウントを使用し
 - アプリ管理のための Apple ID 要件がユーザー単位になるため、DEM ユーザー アカウントでは Apple ID ユーザー ライセンスで Apple Volume Purchase Program (VPP) アプリを利用することはできません。
 - Apple の自動デバイス登録 (ADE) を使用してデバイスを登録するときに、DEM アカウントを使用することはできません。
 - デバイスでは、Apple ID デバイス ライセンスがある場合に VPP アプリをインストールすることができます。
-- Windows 10 1803+ 以降の例外と共にデバイスが条件付きアクセスをブロックされます
+- Windows10 1803+以外のデバイス（Windows以外のOSも含む）は条件付きアクセスでブロックされます。
 - DEM アカウントに登録されているすべてのデバイスを Intune で管理するには、適切にライセンスする必要があります。 ライセンスは、Intune ユーザー ライセンスまたは Intune デバイス ライセンスにすることができます。
 - DEM アカウントを使用して [Android Enterprise 仕事用プロファイル デバイスを登録](android-work-profile-enroll.md)する場合、アカウントあたりの登録可能なデバイスは 10 台に制限されます。
 - DEM アカウントを使用した [Android Enterprise フル マネージド デバイスの登録](android-fully-managed-enroll.md)はサポートされていません。
